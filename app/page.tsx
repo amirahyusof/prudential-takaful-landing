@@ -9,7 +9,7 @@ import Link from "next/link";
 export default function Main() {
   return (
     <div className="flex flex-col min-h-screen bg-gradient-to-r from-[#1D1616] to-[#8E1616] text-white">
-      <header className="bg-[#1D1616] shadow-md">
+      <header className="bg-[#8E1616] shadow-lg">
         <div className="container mx-auto px-4 py-6 flex justify-between items-center">
           <Image
             src="/prudential-logo.svg"
@@ -21,13 +21,13 @@ export default function Main() {
           <nav>
             <ul className="flex space-x-4">
               <li>
-                <a href="#about" className="text-gray-100 hover:text-red-600">Tentang Saya</a>
+                <a href="#about" className="text-gray-200 hover:text-red-600">Tentang Saya</a>
               </li>
               <li>
-                <a href="#products" className="text-gray-100 hover:text-red-600">Produk</a>
+                <a href="#products" className="text-gray-200 hover:text-red-600">Produk</a>
               </li>
               <li>
-                <a href="#contact" className="text-gray-100 hover:text-red-600">Hubungi Saya</a>
+                <a href="#contact" className="text-gray-200 hover:text-red-600">Hubungi Saya</a>
               </li>
             </ul>
           </nav>
