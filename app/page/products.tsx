@@ -8,32 +8,32 @@ import {
 
 const Products = () => {
   return (
-    <section id="products" className="py-20">
+    <section id="products" className="bg-[#EEEEEE] py-20 text-black">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-12">Our Takaful Products</h2>
+        <h2 className="text-3xl font-bold text-center mb-12">Produk Takaful</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <Card>
             <CardHeader>
-              <CardTitle>Family Takaful</CardTitle>
+              <CardTitle>Takaful Keluarga</CardTitle>
             </CardHeader>
             <CardContent>
-              <p>Protect your loved ones with our comprehensive family Takaful plan.</p>
+              <p>Lindungi orang tersayang anda dengan pelan Takaful keluarga komprehensif kami.</p>
             </CardContent>
           </Card>
           <Card>
             <CardHeader>
-              <CardTitle>Health Takaful</CardTitle>
+              <CardTitle>Takaful Kesihatan</CardTitle>
             </CardHeader>
             <CardContent>
-              <p>Ensure your health and well-being with our Sharia-compliant health coverage.</p>
+              <p>Pastikan kesihatan dan kesejahteraan anda dengan perlindungan kesihatan patuh Syariah kami.</p>
             </CardContent>
           </Card>
           <Card>
             <CardHeader>
-              <CardTitle>Investment Takaful</CardTitle>
+              <CardTitle>Takaful Pelaburan</CardTitle>
             </CardHeader>
             <CardContent>
-              <p>Grow your wealth while staying protected with our investment-linked Takaful plans.</p>
+              <p>Kembangkan kekayaan anda sambil dilindungi dengan pelan Takaful berkaitan pelaburan kami.</p>
             </CardContent>
           </Card>
         </div>
