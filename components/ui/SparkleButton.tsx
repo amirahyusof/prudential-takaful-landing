@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useEffect, useMemo, useState, useRef } from 'react';
 import Link from 'next/link';
 import Particles, { initParticlesEngine } from "@tsparticles/react";
