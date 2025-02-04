@@ -11,7 +11,7 @@ const Home = () => {
         <p className="text-xl mb-8">Penyelesaian insurans patuh Syariah untuk anda dan keluarga anda</p>
         <SparkleButton />
       </div>
-      <div className='relative bg-mute border-2'>
+      <div className='relative bg-gray-600 border-2 mx-6 md:mx-2 border-white overflow-hidden'>
         <Image 
           src="/placeholder.svg?height=500&width=500&text=Image+Placeholder"
           alt="Ayu Suhada"
