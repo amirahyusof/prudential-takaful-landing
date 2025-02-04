@@ -21,13 +21,18 @@ export default function Main() {
           <nav>
             <ul className="flex space-x-4">
               <li>
-                <a href="#about" className="text-gray-200 hover:text-red-600">Tentang Saya</a>
+                <a href="#about" className="text-gray-200 hover:text-red-600">Utama</a>
               </li>
               <li>
                 <a href="#products" className="text-gray-200 hover:text-red-600">Produk</a>
               </li>
               <li>
-                <a href="#contact" className="text-gray-200 hover:text-red-600">Hubungi Saya</a>
+                <a href="#achivement" className="text-gray-200 hover:text-red-600">Pencapaian</a>
+              </li>
+              <li>
+                <a href="#contact" className="p-4 text-black hover:text-red-600 h-[50px] w-[150px] bg-gray-300 shadow-md rounded-xl hover:bg-white">
+                  Hubungi Saya
+                </a>
               </li>
             </ul>
           </nav>

@@ -56,12 +56,6 @@ export default {
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
   		}, 
-			keyframes:{
-				'border-spin': {
-					'from': { transform: 'rotate(0deg)' },
-					'to': { transform: 'rotate(360deg)' },
-				}
-			}, 
 			animation: {
 				'spin-slow': 'spin 3s linear infinite',
 			}

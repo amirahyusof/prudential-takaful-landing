@@ -4,7 +4,7 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image';
 import { motion, useTime, useTransform } from "framer-motion";
-import ParticleButton from '@/components/ui/shimmerButton';
+import SparkleButton from '@/components/ui/SparkleButton';
 
 const Home = () => {
   const time = useTime();
@@ -19,7 +19,7 @@ const Home = () => {
       <div className="container mx-auto px-4 text-center ">
         <h1 className="text-4xl md:text-5xl font-bold mb-6">Lindungi Masa Depan Anda dengan Prudential Takaful</h1>
         <p className="text-xl mb-8">Penyelesaian insurans patuh Syariah untuk anda dan keluarga anda</p>
-        <ParticleButton />
+        <SparkleButton />
       </div>
       <div className='relative bg-mute '>
         <Image 
