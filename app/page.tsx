@@ -5,39 +5,12 @@ import Products from "./page/products";
 import Contact from "./page/contact";
 import Achievement from "./page/achivement";
 import Link from "next/link";
+import Header from "./page/header";
 
 export default function Main() {
   return (
     <div className="flex flex-col min-h-screen bg-gradient-to-r from-[#1D1616] to-[#8E1616] text-white">
-      <header className="bg-[#8E1616] shadow-lg">
-        <div className="container mx-auto px-4 py-6 flex justify-between items-center">
-          <Image
-            src="/prudential-logo.svg"
-            alt="Prudential Takaful"
-            width={200}
-            height={50}
-            className="rounded-full"
-          />
-          <nav>
-            <ul className="flex space-x-4">
-              <li>
-                <a href="#about" className="text-gray-200 hover:text-red-600">Utama</a>
-              </li>
-              <li>
-                <a href="#products" className="text-gray-200 hover:text-red-600">Produk</a>
-              </li>
-              <li>
-                <a href="#achivement" className="text-gray-200 hover:text-red-600">Pencapaian</a>
-              </li>
-              <li>
-                <a href="#contact" className="p-4 text-black hover:text-red-600 h-[50px] w-[150px] bg-gray-300 shadow-md rounded-xl hover:bg-white">
-                  Hubungi Saya
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </header>
+      <Header />
 
       <main className="flex-grow">
         <Home />
