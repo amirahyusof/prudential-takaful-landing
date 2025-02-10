@@ -106,7 +106,7 @@ const SparkleButton = () => {
 
   return (
     <div 
-      className="relative inline-block group"
+      className="relative inline-block group z-0"
       onMouseEnter={() => setShowParticles(true)}
       onMouseLeave={() => setShowParticles(false)}
     >

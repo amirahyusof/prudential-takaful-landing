@@ -6,7 +6,7 @@ import { MobileNav } from "@/components/ui/mobile-nav"
 
 export default function Header() {
   return (
-    <header className="fixed top-0 bg-[#8E1616] shadow-lg w-full">
+    <header className="fixed top-0 bg-[#8E1616] shadow-lg w-full z-50">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <Image src="/prudential-logo.svg" alt="Prudential Takaful" width={200} height={50} className="rounded-full" />
         <nav>
