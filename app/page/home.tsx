@@ -5,7 +5,7 @@ import SparkleButton from '@/components/ui/SparkleButton';
 
 const Home = () => {
   return (
-    <section className="text-white py-20 grid gap-8 md:grid-cols-2 items-center">
+    <section id='home' className="text-white py-24 grid gap-8 md:grid-cols-2 items-center">
       <div className="container mx-auto px-4 text-center ">
         <h1 className="text-4xl md:text-5xl font-bold mb-6">Lindungi Masa Depan Anda dengan Prudential Takaful</h1>
         <p className="text-xl mb-8">Penyelesaian insurans patuh Syariah untuk anda dan keluarga anda</p>
