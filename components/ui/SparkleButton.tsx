@@ -21,7 +21,7 @@ const SparkleButton = () => {
   });
 
   const rotatingBg = useTransform(rotate, (r) => {
-    return `conic-gradient(from ${r}deg, black 0%, white 0%, #f00 50%, #f00 100%)`;
+    return `conic-gradient(from ${r}deg, black 0%, white 0%, green 50%, green 100%)`;
   });
 
   useEffect(() => {
@@ -121,12 +121,13 @@ const SparkleButton = () => {
       <button 
         className={`
           relative z-10 px-6 py-2 rounded-xl 
-          bg-red-700 
-          text-white font-bold 
+          bg-white
+          text-[#087E8B] font-bold
+          hover:bg-[#86C232] 
           overflow-hidden
         `}
       >
-        <Link href="#" className="text-xl font-bold">Dapatkan Quote Percuma</Link>
+        <Link href="#" className="text-xl font-bold">Mulakan Perlindungan Anda</Link>
       </button>
       <motion.div 
         className="absolute -inset-[1px] rounded-xl"

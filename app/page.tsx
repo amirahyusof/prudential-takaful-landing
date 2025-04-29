@@ -4,12 +4,12 @@ import About from "./page/about";
 import Products from "./page/products";
 import Contact from "./page/contact";
 import Achievement from "./page/achivement";
-import Link from "next/link";
+import Testimony from "./page/testimony";
 import Header from "./page/header";
 
 export default function Main() {
   return (
-    <div className="flex flex-col min-h-screen bg-gradient-to-r from-[#1D1616] to-[#8E1616] text-white">
+    <div className="flex flex-col min-h-screen bg-gradient-to-r from-[#087E8B] to-[#86C232] text-white">
       <Header />
 
       <main className="flex-grow">
@@ -17,50 +17,16 @@ export default function Main() {
         <About />
         <Achievement />
         <Products />
+        <Testimony />
         <Contact />
       </main>
 
-      <footer className="bg-[#1D1616] text-white py-8">
+      <footer className="bg-gray-800 text-white py-8">
         <div className="container mx-auto px-4">
-          <div className="flex flex-wrap justify-between">
-            <div className="w-full md:w-1/3 mb-6 md:mb-0">
-              <Image src="/prudential-logo-white.svg" alt="Prudential Takaful" width={150} height={40} />
-              <p className="mt-4">Melindungi masa depan anda, cara Syariah.</p>
-            </div>
-            <div className="w-full md:w-1/3 mb-6 md:mb-0">
-              <h3 className="text-lg font-semibold mb-4">Pautan Pantas</h3>
-              <ul className="space-y-2">
-                <li>
-                  <Link href="#produk">Produk</Link>
-                </li>
-                <li>
-                  <Link href="#tentang">Tentang Saya</Link>
-                </li>
-                <li>
-                  <Link href="#pencapaian">Pencapaian</Link>
-                </li>
-                <li>
-                  <Link href="#hubungi">Hubungi Saya</Link>
-                </li>
-              </ul>
-            </div>
-            <div className="w-full md:w-1/3">
-              <h3 className="text-lg font-semibold mb-4">Ikuti Saya</h3>
-              <div className="flex space-x-4">
-                <Link href="#" className="hover:text-blue-400">
-                  Facebook
-                </Link>
-                <Link href="#" className="hover:text-blue-400">
-                  Instagram
-                </Link>
-                <Link href="#" className="hover:text-blue-400">
-                  Tiktok
-                </Link>
-              </div>
-            </div>
-          </div>
-          <div className="mt-8 pt-8 border-t border-gray-700 text-center">
-            <p>&copy; {new Date().getFullYear()} Ayu Suhada | Prudential Takaful. Hak cipta terpelihara.</p>
+          
+          <div className="mt-4 text-center">
+            <p>&copy; {new Date().getFullYear()} Ryzal | Perunding Prudential Takaful Bertauliah. Hak cipta terpelihara.</p>
+            <p className="text-sm text-gray-400 mt-1">Prudential Takaful Berhad adalah syarikat takaful berlesen</p>
           </div>
         </div>
       </footer>

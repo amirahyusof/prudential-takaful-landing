@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 
 export const metadata: Metadata = {
-  title: 'Ayu Suhada | Prudential Takaful Wealth Planner | Protect Your Future',
+  title: 'Ryzal | Prudential Takaful Wealth Planner | Protect Your Future',
   description: 'Discover Prudential Takaful insurance solutions. Sharia-compliant protection for you and your family. Get a quote today!',
   openGraph: {
     title: 'Prudential Takaful Insurance | Protect Your Future',
