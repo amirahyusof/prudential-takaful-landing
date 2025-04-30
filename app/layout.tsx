@@ -16,11 +16,6 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: 'Ryzal | Prudential Takaful Wealth Planner | Protect Your Future',
   description: 'Discover Prudential Takaful insurance solutions. Sharia-compliant protection for you and your family. Get a quote today!',
-  openGraph: {
-    title: 'Prudential Takaful Insurance | Protect Your Future',
-    description: 'Discover Prudential Takaful insurance solutions. Sharia-compliant protection for you and your family. Get a quote today!',
-    images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: 'Prudential Takaful Insurance' }],
-  },
 }
 
 export default function RootLayout({

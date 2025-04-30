@@ -14,9 +14,9 @@ export default function Testimony(){
                 <Quote className="h-6 w-6 text-white" />
               </div>
               <p className="italic mb-6">
-                `&quot` Saya sangat berpuas hati dengan khidmat nasihat yang diberikan. Perunding ini sangat profesional
+                Saya sangat berpuas hati dengan khidmat nasihat yang diberikan. Perunding ini sangat profesional
                 dan memahami keperluan kewangan keluarga saya. Terima kasih kerana membantu kami mendapatkan
-                perlindungan yang sesuai.`&quot`
+                perlindungan yang sesuai.
               </p>
               <div className="flex items-center mt-auto">
                 <div className="w-10 h-10 rounded-full bg-[#0BADA7] flex items-center justify-center text-white font-bold">
@@ -36,9 +36,9 @@ export default function Testimony(){
                 <Quote className="h-6 w-6 text-white" />
               </div>
               <p className="italic mb-6">
-               `&quot`Proses permohonan sangat mudah dan cepat. Perunding ini telah menjelaskan semua manfaat dengan
+                Proses permohonan sangat mudah dan cepat. Perunding ini telah menjelaskan semua manfaat dengan
                 terperinci dan membantu saya memilih pelan yang paling sesuai dengan bajet saya. Sangat
-                mengesyorkan!`&quot`
+                mengesyorkan!
               </p>
               <div className="flex items-center mt-auto">
                 <div className="w-10 h-10 rounded-full bg-[#0BADA7] flex items-center justify-center text-white font-bold">
@@ -58,9 +58,9 @@ export default function Testimony(){
                 <Quote className="h-6 w-6 text-white" />
               </div>
               <p className="italic mb-6">
-               `&quot`Apabila saya dimasukkan ke hospital tahun lepas, perunding ini telah membantu saya dengan proses
+                Apabila saya dimasukkan ke hospital tahun lepas, perunding ini telah membantu saya dengan proses
                 tuntutan dari A hingga Z. Saya tidak perlu risau tentang kertas kerja dan prosedur yang rumit.
-                Perkhidmatan yang sangat baik!`&quot`
+                Perkhidmatan yang sangat baik!
               </p>
               <div className="flex items-center mt-auto">
                 <div className="w-10 h-10 rounded-full bg-[#0BADA7] flex items-center justify-center text-white font-bold">
