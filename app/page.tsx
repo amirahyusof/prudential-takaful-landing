@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import Home from "./page/home";
 import About from "./page/about";
 import Products from "./page/products";
