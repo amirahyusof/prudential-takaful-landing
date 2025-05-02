@@ -11,8 +11,6 @@ Sections: Hero, About, Achievements, Products, Contact
 
 Integrated call-to-action buttons
 
-PWA-ready (optional future enhancement)
-
 Optimized for SEO and speed
 
 # 🛠️ Tech Stack
@@ -24,7 +22,7 @@ Assets: AI-generated images, custom illustrations
 
 Deployment: Vercel (or any static hosting)
 
-#🚀 Getting Started
+# 🚀 Getting Started
 Clone the repo:
 
 bash
