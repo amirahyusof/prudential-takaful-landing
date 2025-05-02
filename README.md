@@ -1,8 +1,8 @@
-🛡️ Prudential Takaful Landing Page
+# 🛡️ Prudential Takaful Landing Page
 A modern, responsive landing page for Ryzal, a Prudential Takaful agent, built with Next.js, Tailwind CSS, and deployed as a personal portfolio to promote Shariah-compliant insurance products.
 You can visit the website: https://prudential-portfolio-page.vercel.app/
 
-📌 Features
+# 📌 Features
 Responsive layout (mobile-first)
 
 Clean, professional design using TailwindCSS
@@ -15,7 +15,7 @@ PWA-ready (optional future enhancement)
 
 Optimized for SEO and speed
 
-🛠️ Tech Stack
+# 🛠️ Tech Stack
 Framework: Next.js
 
 Styling: Tailwind CSS
@@ -24,7 +24,7 @@ Assets: AI-generated images, custom illustrations
 
 Deployment: Vercel (or any static hosting)
 
-🚀 Getting Started
+#🚀 Getting Started
 Clone the repo:
 
 bash
@@ -47,5 +47,5 @@ npm run dev
 Visit http://localhost:3000
 
 
-📣 License
+# 📣 License
 This project is for personal and demo purposes only and not affiliated with or officially endorsed by Prudential BSN Takaful.
