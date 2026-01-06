@@ -111,15 +111,18 @@ const Home = () => {
               ))}
             </div>
 
-            <a href="#contact">
-              <button className="group relative inline-flex items-center gap-3 bg-white text-[#087E8B] px-8 py-4 rounded-full font-bold text-lg shadow-2xl hover:shadow-white/50 transition-all duration-300 hover:scale-105 overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-r from-[#86C232] to-[#0BADA7] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                <Sparkles className="w-5 h-5 relative z-10 group-hover:animate-spin" />
-                <span className="relative z-10 group-hover:text-white transition-colors">
-                  Dapatkan Sebut Harga Percuma
-                </span>
-              </button>
-            </a>
+            <div className='flex flex-col'>
+              <a href="#contact">
+                <button className="group mb-4 relative inline-flex items-center gap-3 bg-white text-[#087E8B] px-8 py-4 rounded-full font-bold text-lg shadow-2xl hover:shadow-white/50 transition-all duration-300 hover:scale-105 overflow-hidden">
+                  <div className="absolute inset-0 bg-gradient-to-r from-[#86C232] to-[#0BADA7] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                  <Sparkles className="w-5 h-5 relative z-10 group-hover:animate-spin" />
+                  <span className="relative z-10 group-hover:text-white transition-colors">
+                    Dapatkan Sebut Harga Percuma
+                  </span>
+                </button>
+              </a>
+              <p className='ml-4'>Perbincangan santai • Tiada paksaan • Percuma</p>
+            </div>  
           </div>
 
           {/* Right Content - Image */}
