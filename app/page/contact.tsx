@@ -12,9 +12,9 @@ const Contact = () => {
         <div className='flex flex-col md:flex-row space-around'>
           <div className="max-w-2xl mx-auto">
             <p className="text-lg mb-4">
-              Saya sedia membantu anda memilih pelan terbaik mengikut keperluan dan bajet anda.
+              Bincang secara santai di WhatsApp (Tiada paksaan)
             </p>
-            <p className="text-xl font-semibold mb-8">📞 WhatsApp saya hari ini untuk sesi konsultasi PERCUMA!</p>
+            <p className="text-xl font-semibold mb-8"> Respon biasanya dalam 24 jam • Perbincangan percuma </p>
             <Button size="lg" className="bg-white text-[#086972] hover:bg-[#86C232] hover:text-white">
               <span className='text-xl font-bold'>Hubungi Saya</span>
             </Button>
