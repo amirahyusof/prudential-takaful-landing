@@ -6,6 +6,8 @@ import Contact from "./page/contact";
 import Achievement from "./page/achivement";
 import Testimony from "./page/testimony";
 import Header from "./page/header";
+import WhatCanHelp from "./page/whatCanHelp";
+import WhoContactMe from "./page/whoContactMe";
 
 export default function Main() {
   return (
@@ -14,9 +16,11 @@ export default function Main() {
 
       <main className="flex-grow">
         <Home />
+        <WhatCanHelp />
         <About />
         <Achievement />
         <Products />
+        <WhoContactMe />
         <Testimony />
         <Contact />
       </main>
